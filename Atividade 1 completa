@@ -1,4 +1,12 @@
-real_fiki = 2 * 4 == 24/3
+programa
+{
+	
+inclua biblioteca Matematica --> Mat
+	funcao inicio()
+	{
+
+	logico real_fiki
+		real_fiki = 2 * 4 == 24/3
 		escreva(real_fiki,"\n")
 		real_fiki = (15 % 4) < (19 % 6)
 		escreva(real_fiki,"\n")
@@ -10,6 +18,9 @@ real_fiki = 2 * 4 == 24/3
 		escreva(real_fiki,"\n")
 		real_fiki =  verdadeiro e ( (7 / 2) > 3.5 )
 		escreva(real_fiki,"\n")
-		real_fiki =  (Mat.arredondar( 2.8, 0 ) == 3) e (Mat.raiz(9) == 3)
+		real_fiki =  (Mat.arredondar( 2.8, 0 ) == 3) e (Mat.raiz(9 , 2) == 3)
 		escreva(real_fiki,"\n")
+	}
+}
+
 		
